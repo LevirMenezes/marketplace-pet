@@ -1,0 +1,22 @@
+{
+  "name": "api-marketplace",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon .\\src\\server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "mongodb": "^6.0.0",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "url": "^0.11.1"
+  }
+}
