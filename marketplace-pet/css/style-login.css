@@ -27,24 +27,19 @@ body * {
     flex-direction: column;
 }
 
-.imagem>h1 {
-    font-size: 2vw;
-    color: #fff;
-}
-
 .left-login-imagem {
-    width: 25vw;
+    width: 40vw;
 }
 
 .right-login {
-    width: 30vw;
+    width: 50vw;
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
 .card-login {
-    width: 28vw;
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +48,7 @@ body * {
     background: #233b3b;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #141f1f;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 .card-login>h1 {
@@ -65,7 +60,7 @@ body * {
 .textfield {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 10px 0px;
     justify-content: space-between;
 }
@@ -111,4 +106,43 @@ body * {
 .fieldset {
     display: flex;
     flex-direction: column;
+}
+
+@media (max-widht: 950px) {
+    .main-login {
+        width: 85%;
+        flex-direction: column;
+    }
+
+    .imagem {
+        flex-direction: column;
+    }
+
+    .right-login {
+        flex-direction: column;
+    }
+}
+
+@media (max-widht:600px) {
+    .main-login {
+        flex-direction: column;
+    }
+
+    .imagem {
+        width: 100;
+        height: auto;
+    }
+
+    .right-login {
+        width: 100;
+        height: auto;
+    }
+
+    .left-login-image {
+        width: 50vw;
+    }
+
+    .card-login {
+        width: 90vw;
+    }
 }
