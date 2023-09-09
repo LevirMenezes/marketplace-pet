@@ -4,59 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style-login.css">
     <title>Login</title>
 </head>
 
 <body>
     <div class="main-login">
-        <div class="left-login">
-            <h1>Faça seu login ou Casdatre-se</h1>
-            <img src="animais.svg" class="left-login-image" alt="Img animação">
-        </div>
-
-        <div class="cadastro">
-            <div class="card-cadastro">
-                <h1>Cadastre-se</h1>
-                <div class="fieldset">
-                    <div class="textfield">
-                        <label for="nome">Digite seu nome:</label>
-                        <input type="text" name="nome" placeholder="Digite seu nome:">
-                    </div>
-                    <div class="textfield">
-                        <label for="email">Digite seu email:</label>
-                        <input type="text" name="email" placeholder="Digite seu email:">
-                    </div>
-                    <div class="textfield">
-                        <label for="email">Confirme seu email:</label>
-                        <input type="text" name="email" placeholder="Digite seu email:">
-                    </div>
-                    <div class="textfield">
-                        <label for="senha">Crie uma senha:</label>
-                        <input type="password" name="senha" placeholder="Min. 6 caracteres">
-                    </div>
-                    <div class="textfield">
-                        <label for="senha">Confirme a senha:</label>
-                        <input type="password" name="senha" placeholder="">
-                    </div>
-                </div>
-
-                <button class="btn-cadastro">Cadastra-se</button>
-            </div>
+        <div class="imagem">
+            <h1>Faça seu login</h1>
+            <img src="./assets/animais.svg" class="left-login-imagem" alt="Img animação">
         </div>
 
         <div class="right-login">
             <div class="card-login">
                 <h1>Login</h1>
                 <div class="textfield">
-                    <label for="usuario">Usuário:</label>
-                    <input type="text" name="usuario" placeholder="Digite seu nome de usuário">
+                    <label for="usuarioLogin">Usuário:</label>
+                    <input type="text" id="usuarioLogin" placeholder="Digite seu nome de usuário">
                 </div>
+
                 <div class="textfield">
-                    <label for="senha">Senha:</label>
-                    <input type="password" name="senha" placeholder="Digite sua senha">
+                    <label for="senhaLogin">Senha:</label>
+                    <input type="password" id="senhaLogin" placeholder="Digite sua senha">
                 </div>
-                <button class="btn-login">Login</button>
+                <button class="btn-login" id="login-btn">Login</button>
             </div>
         </div>
     </div>
