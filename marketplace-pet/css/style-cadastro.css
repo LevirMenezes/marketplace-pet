@@ -16,12 +16,61 @@ body * {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+}
+
+.imagem-cadastro {
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-cadastro-imagem {
+    width: 45vw;
+}
+
+.right-cadastro {
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.cadastro {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.card-cadastro {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #233b3b;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #141f1f;
+    margin-right: 60px;
+}
+
+.card-cadastro>h1 {
+    color: #fff;
+    font-weight: 800;
+    margin: 0;
 }
 
 .textfield {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 10px 0px;
     justify-content: space-between;
 }
@@ -47,42 +96,10 @@ body * {
     color: #767977;
 }
 
-.cadastro {
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cadastro>h1 {
-    font-size: 2vw;
-    color: #fff
-}
-
-.card-cadastro {
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    padding: 30px 35px;
-    background: #233b3b;
-    border-radius: 20px;
-    box-shadow: 0px 10px 40px #141f1f;
-    margin-left: 30px;
-}
-
-.card-cadastro>h1 {
-    color: #fff;
-    font-weight: 800;
-    margin: 0;
-}
-
 .btn-cadastro {
     width: 100%;
     padding: 16px 0px;
     margin: 25px;
-    justify-content: center;
     border: none;
     border-radius: 8px;
     outline: none;
@@ -96,7 +113,21 @@ body * {
     align-self: center;
 }
 
-.fieldset {
-    display: flex;
-    flex-direction: column;
+@media (max-width:600px) {
+    .main-cadastro {
+        flex-direction: column;
+        width: 100vw;
+        height: 130vh;
+    }
+
+    .imagem-cadastro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .right-cadastro {
+        height: auto;
+    }
 }
