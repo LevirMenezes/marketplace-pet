@@ -20,28 +20,37 @@
 
 <body>
     <header>
-        <a href="#" class="logo"><i class='bx bxs-dog'></i><i class='bx bxs-cat'></i> Pet LeVi</a>
-
-        <ul class="nav">
-            <li class="nav-item"><a href="inicial-page.html" class="nav-link">Visão Geral</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Acessórios</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contate-nos</a></li>
-        </ul>
+        <div class="logo">
+            <a href="#" class="logo"><i class='bx bxs-dog'></i><i class='bx bxs-cat'></i> Pet LeVi</a>
+        </div>
+        <nav class="nav-bar">
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Acessórios</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="header-icons">
-            <i class='bx bx-cart'></i>
-            <div id="menu"><i class='bx bx-menu'></i></div>
-        </div>
+            <div class="login-button">
+                <button><a href="marketplace-pet/login.html">Login</a></button>
+                <button><a href="marketplace-pet/cadastro.html">Cadastro</a></button>
+            </div>
+            <button><a href="#"><i class='button-cart'></i></a></button>
+            <button onclick="menuShow()"><a href="#"><img class='button-menu' src="assets/menu_white_36dp.svg"
+                        alt=""></a></button>
 
-        <div class="mobile-menu">
-            <ul class="nav">
-                <li class="nav-item"><a href="inicial-page.html" class="nav-link">Visão Geral</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Acessórios</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contate-nos</a></li>
-            </ul>
+            <div class="mobile-menu">
+                <ul class="nav">
+                    <li class="nav-item"><a href="inicial-page.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Acessórios</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
         </div>
-
     </header>
 
     <section class="home">

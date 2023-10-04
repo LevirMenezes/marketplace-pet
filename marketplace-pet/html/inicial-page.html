@@ -14,7 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Quicksand:wght@300;400;500;600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="marketplace-pet/css/style-inicial-page.css">
+    <link rel="stylesheet" href="marketplace-pet\css\style-inicial-page.css">
     <title>Pet LeVi</title>
 </head>
 
@@ -26,31 +26,39 @@
         <nav class="nav-bar">
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Visão Geral</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Acessórios</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contate-nos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contatos</a></li>
                 </ul>
-            </div>
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="marketplace-pet/assets/icons8-menu.svg"
-                        alt=""></button>
             </div>
         </nav>
         <div class="login-button">
             <button><a href="marketplace-pet/login.html">Login</a></button>
             <button><a href="marketplace-pet/cadastro.html">Cadastro</a></button>
         </div>
+        <div class="header-icons">
+            <button><a href="#"><i class='bx bx-cart'></i></a></button>
+            <button onclick="menuShow()"><a href="#"><i class='bx bx-menu'></i></a></button>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="assets/menu_white_36dp.svg" alt=""></button>
+        </div>
 
         <div class="mobile-menu">
-            <ul class="nav">
-                <li class="nav-item"><a href="#" class="nav-link">Visão Geral</a></li>
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Acessórios</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contate-nos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contatos</a></li>
             </ul>
             <div class="login-button">
-                <button><a href="#">Entrar</a></button>
+                <button><a href="marketplace-pet/login.html">Login</a></button>
+                <button><a href="marketplace-pet/cadastro.html">Cadastro</a></button>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/icons8-menu.svg" alt=""></button>
             </div>
         </div>
     </header>
@@ -58,7 +66,7 @@
     <section class="home">
 
     </section>
-
+    <script src="marketplace-pet/js/inicial-page.js"></script>
 </body>
 
 </html>
